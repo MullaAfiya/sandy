@@ -1,0 +1,22 @@
+sudo ln -fs /usr/bin/python3.5 /usr/bin/python
+
+
+sudo update-alternatives --config java
+
+python -m pip install --upgrade pip
+
+python -m pip install --user ansible-core==2.12.3
+python -m pip install --user ansible-core==2.19.9
+
+python3 -m pip install --upgrade --user ansible
+python -m pip install --upgrade --user ansible
+
+python3 -m pip show ansible
+
+
+karthikey- 2spacebar
+node1 sandy
+
+bin/logstash --path.settings /etc/logstash -e 'input { stdin { } } output { stdout {} }'
+https://bootstrap.pypa.io/pip/2.7/get-pip.py instead.
+bin/logstash -f /etc/logstash/logstash_f.conf
